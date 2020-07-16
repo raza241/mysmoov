@@ -1,0 +1,124 @@
+
+@import url('font.awesome.css');
+.accordion-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f078";
+    float: right;
+    color: black;
+}
+.accordion-opened .accordion-toggle:after {
+    content: "\f054";
+}
+
+.modal .modal-content {
+    border: none;
+    border-radius: unset;
+}
+
+.modal .modal-header {
+    border-bottom: none;
+}
+
+.modal .modal-body {
+    padding: 1em 3em 3em 3em;
+}
+.modal .title_action {
+    font-size: 30px;
+    /*margin-bottom: 0px;*/
+}
+.modal .title_desc {
+    font-size: 15px;
+}
+.modal .btn-orange {
+    background-color: #FF5F31;
+    border-color: #FF5F31;
+    color: white;
+    padding: 10px 70px;
+    border-radius: 30px;
+}
+.modal .btn-white {
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.modal .btn-conti {
+    background-color: white;
+    padding: 15px;
+}
+.modal .btn-white .fa-arrow-right {
+    padding-left: 5px;
+}
+.modal .btn-section {
+    margin-top: 25px;
+}
+.modal .btn.btn-a-img {
+    color: #FF5F31;
+}
+
+.modal .btn.btn-a-img img{
+    padding-right: 10px;
+}
+.modal .title_changes_save {
+    margin-top: 20px;
+    font-size: 30px;
+}
+.modal .title_changes_save img {
+    position: relative;
+    top: -20px;
+}
+
+.modal .btn-orange-sm{
+    background-color: #FF5F31;
+    border-color: #FF5F31;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+/**
+@Description textare code
+@Author Khuram Qadeer.
+ */
+
+.input-pen {
+    position: relative;
+}
+
+.input-pen input {
+    border: none;
+    background: #fff;
+    display: block;
+    width: 100%;
+    box-sizing: border-box
+}
+
+.input-pen img {
+    position: absolute;
+    top: 10px;
+    right: 5px
+}
+
+.input-pen textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: unset;
+    overflow: hidden;
+    /*resize: none;*/
+    /*padding: 20px;*/
+}
+
+.my-custom-select {
+    border-radius: unset;
+    border: 2px solid #000000;
+}
+
+.btn.btn-a-img {
+    color: #FF5F31;
+}
+.btn-next {
+    color: #ff5f31;
+    text-decoration: unset;
+}
+/*end code*/

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="assets/js/jquery-3.5.1.js"></script>
+        <link rel="stylesheet" href="assets/css/bootstrap4.min.css" >
+        <script src="assets/js/bootstrap4.min.js" ></script>
+        <script src="assets/js/fontawesome.js" ></script>
+<!--        <script src="https://use.fontawesome.com/d418b3babb.js"></script>-->
+        <link rel="stylesheet" href="assets/css/model_style.css">
+</head>
+
+<body>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_leave_us">
+        Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modal_leave_us" tabindex="-1" role="dialog" aria-labelledby="modal_leave_usLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                        <div class="modal-header">
+                                <h5 class="modal-title" id="modal_leave_usLabel"></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                </button>
+                        </div>
+                        <div class="modal-body">
+                                <div class="container">
+                                        <div class="row">
+                                                <div class="col-sm-12 col-md-12">
+                                                        <p class="title_action">Really my dear?</p>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12">
+                                                        <p class="title_desc">
+                                                                Do you really want to leave us? We are sad… If you need help you can contact us any time.
+                                                        </p>
+                                                </div>
+                                        </div>
+
+                                        <div class="row btn-section">
+                                                <div class="col-sm-12 col-md-8 text-center">
+                                                        <button class="btn btn-orange">Contact us</button>
+                                                </div>
+                                                <div class="col-sm-12 col-md-4 text-center">
+                                                        <button class="btn btn-white">Delete
+                                                                <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+
+                </div>
+        </div>
+</div>
+
+
+<script>
+        $('#modal_leave_us').modal('toggle')
+
+</script>
+
+</body>
+</html>

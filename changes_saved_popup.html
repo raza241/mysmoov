@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="assets/js/jquery-3.5.1.js"></script>
+        <link rel="stylesheet" href="assets/css/bootstrap4.min.css" >
+        <script src="assets/js/bootstrap4.min.js" ></script>
+        <script src="assets/js/fontawesome.js" ></script>
+<!--        <script src="https://use.fontawesome.com/d418b3babb.js"></script>-->
+        <link rel="stylesheet" href="assets/css/model_style.css">
+</head>
+
+<body>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_changes_saved">
+        Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modal_changes_saved" tabindex="-1" role="dialog" aria-labelledby="modal_changes_savedLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                        <div class="modal-header">
+                                <h5 class="modal-title" id="modal_changes_savedLabel"></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                </button>
+                        </div>
+                        <div class="modal-body">
+                                <div class="container">
+                                        <div class="row">
+                                                <div class="col-sm-12 col-md-8 text-center">
+                                                        <p class="title_changes_save">Changes Saved.</p>
+                                                </div>
+                                                <div class="col-sm-12 col-md-4 text-center">
+                                                        <p class="title_changes_save">
+                                                                <img src="assets/img/true.png" class="img-fluid icon" alt="icon">
+                                                        </p>
+                                                </div>
+                                        </div>
+
+
+                                </div>
+                        </div>
+
+                </div>
+        </div>
+</div>
+
+
+<script>
+        $('#modal_changes_saved').modal('toggle')
+
+</script>
+
+</body>
+</html>
